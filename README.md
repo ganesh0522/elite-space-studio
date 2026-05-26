@@ -1,16 +1,206 @@
-# React + Vite
+# EliteSpace Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, premium, responsive interior design website built using React and Vite.
 
-Currently, two official plugins are available:
+EliteSpace Studio is a fictional luxury interior design company website designed for residential, commercial, and retail spaces. The project focuses on modern UI/UX design, reusable architecture, responsiveness, and smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live Website:
+https://your-vercel-link.vercel.app
 
-## Expanding the ESLint configuration
+GitHub Repository:
+https://github.com/your-username/elite-space-studio
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Modern luxury UI design
+- Fully responsive layout
+- Multi-page architecture
+- Smooth navigation using React Router
+- Reusable components
+- Mobile navigation drawer
+- Project filtering functionality
+- Testimonials section
+- Animated interactions
+- SEO meta tags
+- Clean folder structure
+- Dynamic data rendering
+
+---
+
+## Tech Stack
+
+Frontend:
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Framer Motion
+- React Icons
+- SwiperJS
+
+---
+
+## Folder Structure
+
+```text
+src/
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Footer/
+│   ├── Hero/
+│   ├── Buttons/
+│   ├── Card/
+│   ├── SectionTitle/
+│   └── BackToTop/
+│
+├── pages/
+│   ├── Home/
+│   ├── About/
+│   ├── Services/
+│   ├── Projects/
+│   └── Contact/
+│
+├── layouts/
+│   └── MainLayout/
+│
+├── data/
+│   ├── services.js
+│   ├── projects.js
+│   ├── team.js
+│   └── testimonials.js
+│
+├── hooks/
+│   ├── useScroll.js
+│   └── useWindowSize.js
+│
+├── utils/
+│   ├── constants.js
+│   └── helpers.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/elite-space-studio.git
+```
+
+Move into project directory:
+
+```bash
+cd elite-space-studio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
+
+```bash
+npm run dev
+```
+
+Build production version:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Pages
+
+### Home
+- Hero Section
+- Client Categories
+- Services
+- Featured Projects
+- Process Timeline
+- Testimonials
+- Call To Action
+
+### About
+- Company Story
+- Statistics
+- Mission and Vision
+
+### Services
+- Interior Design
+- Architecture Design
+- Renovation
+- 3D Visualization
+
+### Projects
+- Portfolio Grid
+- Category Filters
+
+### Contact
+- Contact Form
+- Office Details
+
+---
+
+## Responsive Design
+
+Supported devices:
+
+- Mobile (320px+)
+- Tablet (768px+)
+- Desktop (1024px+)
+- Large Screens (1440px+)
+
+---
+
+## Future Improvements
+
+- Backend integration
+- Authentication
+- Database connectivity
+- Admin dashboard
+- Email functionality
+- Project booking system
+
+---
+
+## Author
+
+Ganesh Syave
+
+GitHub:
+https://github.com/your-username
+
+LinkedIn:
+https://linkedin.com/in/your-profile
+
+---
+
+## License
+
+This project is created for learning and internship assessment purposes.
